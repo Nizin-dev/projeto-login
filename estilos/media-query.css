@@ -6,6 +6,7 @@
     }
     section#login{
         width: 80vw;
+        height: 280px;
     }
     section#login> div#imagem{
         float: left;
@@ -25,15 +26,23 @@
     }
     section#login{
         width: 950px;   /*as proximas configuracoes servem para que a box de login fique dividida em 50% para a imagem e 50% para section de login, a tag float serve para deixar um de cada lado*/
+        height: 350px;
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login >div#formulario{
-        float: right;
+        float: left;
         width: 50%;
 }
+    div#formulario>p{
+    font-size: 1.2em;
+    margin: 20px 0px;
+}
+    div#formulario>h1{
+        font-size: 2em;
+    }
 }
